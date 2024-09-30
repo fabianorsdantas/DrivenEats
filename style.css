@@ -39,10 +39,66 @@ header{
     font-family: "Righteous", cursive;
     font-size: 44px;
     font-weight: 400;
-    margin-bottom: 5px;
+    margin-bottom: 5px;  
 
+}
 
+.cardapio{
+    margin: auto 0 27px 19px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-    
+.escolha{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: #333333;
+    padding-left: 19px;
+    margin-top: 123px;
+    margin-bottom: 10px;
+}
 
+.selecionado{
+    width: 172px;
+    height: 216px;
+    padding: 18px 10px 10px 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 19px;
+    border-radius: 9px;
+   
+}
+
+.opcoes{
+    display: inline-flex;
+    overflow-x: scroll;
+    gap: 16px;
+}
+.opcoes::-webkit-scrollbar{
+    display: none;    
+   
+}
+
+.nome{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+    left: 19px;
+    position: relative;
+    top: 8px;
+}
+
+.descricao-item{
+    max-width: 147px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
