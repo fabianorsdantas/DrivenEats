@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DrivenEats</title>
+  </head>
+  <body>
+    <header>
+      <div class="titulos">
+        <h1 class="titulo">DrivenEats</h1>
+        <p class="sub-titulo">Sua comida pronta em 6 minutos</p>
+      </div>
+    </header>
+    <main>
+      <div class="cardapio">
+        <div class="escolha">Primeiro, seu prato</div>
+        <div class="opcoes pratos">
+          <div class="selecionado" onclick="selecionarPrato(this)">
+            <img
+              src="img/nhoque.png"
+              alt="foto de nhoque"
+            />
+            <h2 class="nome">Nhoque</h2>
+            <p class="descricao">Nhoque com molho e bacon</p>
+            <h3 class="valor">R$ 14,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick="selecionarPrato(this)">
+            <img
+              src="img/Macarão.png"
+              alt="foto de macarão"
+            />
+            <h2 class="nome">Macarão com queijo</h2>
+            <p class="descricao">Macarão, carne desfiada, queijo mussarela</p>
+            <h3 class="valor">R$ 12,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick="selecionarPrato(this)">
+            <img
+              src="img/burrito.jpg"
+              alt="foto de burrito de frango"
+            />
+            <h2 class="nome">Burrito de frango</h2>
+            <p class="descricao">Frango, massa e salada</p>
+            <h3 class="valor">R$ 11,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick="selecionarPrato(this)">
+            <img
+              src="img/Grao-de-Bico-com-Atum.jpg"
+              alt="foto de grão de bico com atum"
+            />
+            <h2 class="nome">Grão de bico com atum</h2>
+            <p class="descricao">Peixe, frutos do mar, saladas e vegetais</p>
+            <h3 class="valor">R$ 10,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick="selecionarPrato(this)">
+            <img
+              src="img/coxinha.jpg"
+              alt="foto de coxinha de frango"
+            />
+            <h2 class="nome">Coxinha de frango</h2>
+            <p class="descricao">Frango desfiado, queijo catupiri e molho</p>
+            <h3 class="valor">R$ 8,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick="selecionarPrato(this)">
+            <img
+              src="img/SOPA-CREMOSA-DE-LENTILHA.jpg"
+              alt="foto de sopa de lentilha"
+            />
+            <h2 class="nome">Sopa de lentilha</h2>
+            <p class="descricao">Deliosa sopa nutritiva e reconfortante</p>
+            <h3 class="valor">R$ 5,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="cardapio">
+        <div class="escolha">Agora, sua bebida</div>
+        <div class="opcoes bebidas">
+          <div class="selecionado" onclick="selecionarBebidas(this)">
+            <img
+              src="img/gin.jpg"
+              alt="foto de gim com canela"
+            />
+            <h2 class="nome">Gin com canela</h2>
+            <p class="descricao">Drink sofisticado com sabor marcante</p>
+            <h3 class="valor">R$ 6,50</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick="selecionarBebidas(this)">
+            <img
+              src="img/batida de abacaxi.png"
+              alt="foto batida de abacaxi"
+            />
+            <h2 class="nome">Batida de Abacaxi com coco</h2>
+            <p class="descricao">Super refrescante</p>
+            <h3 class="valor">R$ 9,00</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick="selecionarBebidas(this)">
+            <img
+              src="img/CHA-DE-CRAVO-E-CANELA.jpg"
+              alt="foto chá de cravo e canela"
+            />
+            <h2 class="nome">Chá de cravo e canela</h2>
+            <p class="descricao">Possui um aroma delicioso de especiarias</p>
+            <h3 class="valor">R$ 3,50</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick="selecionarBebidas(this)">
+            <img
+              src="img/gold milk.jpg"
+              alt="foto gold milk"
+            />
+            <h2 class="nome">Gold Milk</h2>
+            <p class="descricao">Combina o açafrão e outras especiarias com leite de amêndoa ou outro leite vegetal</p>
+            <h3 class="valor">R$ 9,00</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick="selecionarBebidas(this)">
+            <img
+              src="img/manga colada.jpg"
+              alt="foto de uma batida de abacate "
+            />
+            <h2 class="nome">Manga colada sel álcoo</h2>
+            <p class="descricao">Drink saboroso e muito refrescante</p>
+            <h3 class="valor">R$ 8,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick="selecionarBebidas(this)">
+            <img
+              src="img/Chocolate-Quente-2.jpg"
+              alt="foto chocolate quente"
+            />
+            <h2 class="nome">Chocolate quente</h2>
+            <p class="descricao">Chocolate cremoso com especiarias</p>
+            <h3 class="valor">R$ 7,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="cardapio">
+        <div class="escolha">Por fim, sua sobremesa</div>
+        <div class="opcoes sobremesas">
+          <div class="selecionado" onclick=" selecionarSobremesas(this)">
+            <img
+              src="img/sorvete.jpg"
+              alt="foto de sorvete"
+            />
+            <h2 class="nome">Sorvete com waffle</h2>
+            <p class="descricao">Sorvete com Waffle de Fubá Mimoso</p>
+            <h3 class="valor">R$ 4,50</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick=" selecionarSobremesas(this)">
+            <img
+              src="img/sobremesa-na-taca-baunilha-e-chocolate.jpg"
+              alt="foto de sobremesa na taça"
+            />
+            <h2 class="nome">Sobremesa na taça - baunilha e chocolate</h2>
+            <p class="descricao">Combinação perfeita de sabores e texturas</p>
+            <h3 class="valor">R$ 8,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick=" selecionarSobremesas(this)">
+            <img
+              src="img/pé de moleque.jpg"
+              alt="foto de pé de moleque"
+            />
+            <h2 class="nome">Pé de moleque com chocolate</h2>
+            <p class="descricao">Simplesmente uma delícia</p>
+            <h3 class="valor">R$ 3,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick=" selecionarSobremesas(this)">
+            <img
+              src="img/CHURRO-COM-CALDA-DE-CHOCOLATE.jpg"
+              alt="foto de churro com calda de chocolate"
+            />
+            <h2 class="nome">Churro com calda de chocolate</h2>
+            <p class="descricao">Combina a textura crocante do churro com a suavidade de uma calda de chocolate</p>
+            <h3 class="valor">R$ 11,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick=" selecionarSobremesas(this)">
+            <img src="img/waffle.jpg" alt="foto de waffle doce" />
+            <h2 class="nome">Waffle Doce</h2>
+            <p class="descricao">Textura super gostosa que combina mel e frutas</p>
+            <h3 class="valor">R$ 6,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="selecionado" onclick=" selecionarSobremesas(this)">
+            <img
+              src="img/muffin.jpg"
+              alt="foto de muffin"
+            />
+            <h2 class="nome">Muffin de Fubá com Morango</h2>
+            <p class="descricao">Combinação deliciosa que vai encantar o seu paladar</p>
+            <h3 class="valor">R$ 7,90</h3>
+            <ion-icon class="oculto" name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="menu-inferior">
+        <div class="selecao">
+          <p>Selecione os 3 itens</p>
+          <p>para fechar o pedido</p>
+        </div>
+      </div>
+      <div class="janela-finalizar oculto">
+        <div class="selecao" onclick="confirmaPedido()">
+          <p>Fechar pedido</p>
+        </div>
+      </div>
+    </footer>
+    <div class="janela-confirmacao no-selection">
+      <div class="informacoes-pedido">
+        <h4 class="titulo-confirmacao">Confirme seu pedido</h4>
+        <ul class="itens-confirmacao"></ul>
+        <div class="botoes">
+          <a class="botao-confirmacao confirmar" onclick="enviaPedido()">Tudo certo, pode pedir!</a>
+          <button class="botao-confirmacao cancelar" onclick="cancelaPedido()">Cancelar</button>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </body>
+</html>
